@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="GW_URMeleeBase" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<weaponClasses>
-		  <li>Melee</li>
+			<li>Melee</li>
 		</weaponClasses>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
@@ -14,7 +14,7 @@
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 		</weaponTags>
-		<stuffCategories Inherit="false" />
+		<stuffCategories Inherit="false"/>
 		<recipeMaker>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
@@ -36,7 +36,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.0</drawSize>
 		</graphicData>
-		<uiIconScale>1.0</uiIconScale>				
+		<uiIconScale>1.0</uiIconScale>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
 			<Mass>5.85</Mass>
@@ -59,33 +59,57 @@
 		<costStuffCount>300</costStuffCount>
 		<tools>
 			<li>
-			<label>handle</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>2.5</cooldownTime>
-			<armorPenetration>0.5</armorPenetration>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>GW_UR_Crush</def>
+						<amount>1</amount>
+						<armorPenetration>999</armorPenetration>
+						<chance>0.01</chance>
+					</li>
+				</extraMeleeDamages>
 			</li>
 			<li>
-			<label>point</label>
-			<capacities>
-				<li>Stab</li>
-			</capacities>
-			<power>35</power>
-			<cooldownTime>2.5</cooldownTime>
-			<armorPenetration>1.1</armorPenetration>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>35</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>1.1</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>GW_UR_Crush</def>
+						<amount>1</amount>
+						<armorPenetration>999</armorPenetration>
+						<chance>0.01</chance>
+					</li>
+				</extraMeleeDamages>
 			</li>
 			<li>
-			<label>edge</label>
-			<capacities>
-				<li>Cut</li>
-			</capacities>
-			<power>50</power>
-			<cooldownTime>1.5</cooldownTime>
-			<armorPenetration>1.6</armorPenetration>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>1.5</cooldownTime>
+				<armorPenetration>1.6</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>GW_UR_Crush</def>
+						<amount>1</amount>
+						<armorPenetration>999</armorPenetration>
+						<chance>0.01</chance>
+					</li>
+				</extraMeleeDamages>
 			</li>
-		</tools>		
+		</tools>
 	</ThingDef>
 
 </Defs>

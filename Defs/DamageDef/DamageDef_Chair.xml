@@ -1,0 +1,24 @@
+<Defs>
+
+	<DamageDef>
+		<defName>GW_UR_Crush</defName>
+		<label>crush</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been crushed to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Cut</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+		<li>
+			<hediff>GW_UR_Instakill</hediff>
+			<severityPerDamageDealt>1</severityPerDamageDealt>
+		</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+	</DamageDef>
+
+</Defs>

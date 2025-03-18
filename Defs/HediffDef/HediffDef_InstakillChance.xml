@@ -1,0 +1,19 @@
+<Defs>
+
+	<HediffDef ParentName="DiseaseBase">
+		<defName>GW_UR_Instakill</defName>
+		<label>insta-kill by a chair</label>
+		<defaultLabelColor>(255, 50, 50)</defaultLabelColor>
+		<description>dead</description>
+		<isBad>true</isBad>
+		<initialSeverity>1</initialSeverity>
+		<lethalSeverity>1</lethalSeverity>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>
