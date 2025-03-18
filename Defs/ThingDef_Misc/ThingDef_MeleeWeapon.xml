@@ -16,12 +16,12 @@
 		</weaponTags>
 		<stuffCategories Inherit="false"/>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>Machining</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="false">
-				<li>FabricationBench</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 			<displayPriority>410</displayPriority>
 		</recipeMaker>
