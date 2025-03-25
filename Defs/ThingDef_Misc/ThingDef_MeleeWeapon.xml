@@ -27,6 +27,25 @@
 		</recipeMaker>
 	</ThingDef>
 	
+	<ToolCapacityDef>
+		<defName>GW_UR_ChairTool</defName>
+		<label>smash</label>
+	</ToolCapacityDef>
+  
+	<ManeuverDef>
+		<defName>GW_UR_SmashChair</defName>
+		<requiredCapacity>GW_UR_ChairTool</requiredCapacity>
+		<verb>
+			  <verbClass>Verb_MeleeAttackDamage</verbClass>
+			  <meleeDamageDef>Blunt</meleeDamageDef>
+		</verb>
+		 <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+	
 	<ThingDef ParentName="GW_URMeleeBase">
 		<defName>GW_UR_AngryChair</defName>
 		<label>One Angry Chair</label>
@@ -59,9 +78,9 @@
 		<costStuffCount>300</costStuffCount>
 		<tools>
 			<li>
-				<label>handle</label>
+				<label>arm rest</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>GW_UR_ChairTool</li>
 				</capacities>
 				<power>10</power>
 				<cooldownTime>2.5</cooldownTime>
@@ -76,9 +95,9 @@
 				</extraMeleeDamages>
 			</li>
 			<li>
-				<label>point</label>
+				<label>seat</label>
 				<capacities>
-					<li>Stab</li>
+					<li>GW_UR_ChairTool</li>
 				</capacities>
 				<power>35</power>
 				<cooldownTime>2.5</cooldownTime>
@@ -93,9 +112,9 @@
 				</extraMeleeDamages>
 			</li>
 			<li>
-				<label>edge</label>
+				<label>legs</label>
 				<capacities>
-					<li>Cut</li>
+					<li>GW_UR_ChairTool</li>
 				</capacities>
 				<power>50</power>
 				<cooldownTime>1.5</cooldownTime>

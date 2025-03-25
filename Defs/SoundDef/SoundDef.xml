@@ -1,0 +1,20 @@
+<Defs>
+
+	<SoundDef>
+		<defName>GW_AngyChairHittingPeopleToDeath</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ChairAngy</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>30</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>
