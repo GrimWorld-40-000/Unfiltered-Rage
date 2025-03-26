@@ -49,7 +49,7 @@
 	<ThingDef ParentName="GW_URMeleeBase">
 		<defName>GW_UR_AngryChair</defName>
 		<label>One Angry Chair</label>
-		<description>To do.</description>
+		<description>Behold, the One Angry Chair, the greatest melee weapon ever beheld by the legendary Angry Marines. No Khornate Berserker could ever hope to match the impossible-potent, impossibly-pure rage of one who would wield this deadly weapon, this Excalibur of chairs. \n\n"ALWAYS ANGRY! ALL THE TIME!"</description>
 		<graphicData>
 			<texPath>Things/Weapons/Angry_marines_chair</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
